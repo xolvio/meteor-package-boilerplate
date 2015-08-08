@@ -23,5 +23,5 @@ Then open http://localhost:4000 in the browser.
 ### Run tests once
 
 ```sh
-node node_modules/.bin/velocity ./ --ci --port 4000
+node node_modules/.bin/velocity test-package ./ --ci --port 4000
 ```
