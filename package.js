@@ -7,10 +7,10 @@ Package.describe({
   git: '',
   // By default, Meteor will default to using README.md for documentation.
   // To avoid submitting documentation, set this field to null.
-  documentation: 'README.md'
+  documentation: 'README.md',
 });
 
-Package.onUse(function(api) {
+Package.onUse(function onUse(api) {
   api.export('MeteorPackageBoilerplate');
 
   api.versionsFrom('1.1.0.3');
@@ -19,7 +19,7 @@ Package.onUse(function(api) {
   api.addFiles('meteor-package-boilerplate.es6.js');
 });
 
-Package.onTest(function(api) {
+Package.onTest(function onTest(api) {
   api.use('sanjo:jasmine@0.16.4');
   api.use('grigio:babel@0.1.6');
   api.use('meteor-package-boilerplate');

@@ -23,5 +23,11 @@ Then open http://localhost:4000 in the browser.
 ### Run tests once
 
 ```sh
-node node_modules/.bin/velocity test-package ./ --ci --port 4000
+npm run-script test-once
+```
+
+## Lint code
+
+```sh
+npm run-script lint
 ```

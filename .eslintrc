@@ -1,0 +1,6 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "space-before-function-paren": [2, {"anonymous": "always", "named": "never"}]
+  }
+}
