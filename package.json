@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "velocity test-package ./ --port 4000 --driver-package velocity:html-reporter@0.9.0-rc.1"
+  },
+  "devDependencies": {
+    "velocity-cli": "^0.3.3"
+  }
+}

@@ -11,12 +11,16 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
+  api.export('MeteorPackageBoilerplate');
+
   api.versionsFrom('1.1.0.3');
+
   api.addFiles('meteor-package-boilerplate.js');
 });
 
 Package.onTest(function(api) {
-  api.use('tinytest');
+  api.use('sanjo:jasmine@0.16.4');
   api.use('meteor-package-boilerplate');
-  api.addFiles('meteor-package-boilerplate-tests.js');
+
+  api.addFiles('tests/meteor-package-boilerplate-spec.js');
 });
