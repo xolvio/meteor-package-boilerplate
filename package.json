@@ -6,7 +6,7 @@
   "scripts": {
     "test": "velocity test-package ./ --port 4000 --driver-package velocity:html-reporter@0.9.0-rc.1",
     "test-once": "velocity test-package ./ --port 4000 --ci",
-    "lint": "eslint ."
+    "lint": "eslint --ext .js --ext .es6 --ext .jsx ."
   },
   "devDependencies": {
     "babel-eslint": "^4.0.5",
