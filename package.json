@@ -13,7 +13,7 @@
     "eslint-config-airbnb": "^2.1.1",
     "eslint-plugin-babel": "^3.0.0",
     "pre-commit": "^1.1.1",
-    "velocity-cli": "^0.3.3"
+    "velocity-cli": "^0.4.3"
   },
   "pre-commit": [
     "lint",
