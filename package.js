@@ -15,16 +15,16 @@ Package.describe({
 Package.onUse(function onUse(api) {
   api.export('MeteorPackageBoilerplate');
 
-  api.versionsFrom('1.1.0.3');
-  api.use('grigio:babel@0.1.6');
+  api.versionsFrom('1.2.0.1');
+  api.use('ecmascript');
 
-  api.addFiles('meteor-package-boilerplate.es6.js');
+  api.addFiles('meteor-package-boilerplate.js');
 });
 
 Package.onTest(function onTest(api) {
   api.use('sanjo:jasmine@0.16.4');
-  api.use('grigio:babel@0.1.6');
+  api.use('ecmascript');
   api.use('meteor-package-boilerplate');
 
-  api.addFiles('tests/meteor-package-boilerplate-spec.es6.js');
+  api.addFiles('tests/meteor-package-boilerplate-spec.js');
 });
