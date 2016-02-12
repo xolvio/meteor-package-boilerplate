@@ -16,7 +16,6 @@
     "velocity-cli": "^0.4.3"
   },
   "pre-commit": [
-    "lint",
-    "test-once"
+    "lint"
   ]
 }
