@@ -23,11 +23,11 @@ Then open http://localhost:4000 in the browser.
 ### Run tests once
 
 ```sh
-npm run-script test-once
+npm run test-once
 ```
 
 ## Lint code
 
 ```sh
-npm run-script lint
+npm run lint
 ```
