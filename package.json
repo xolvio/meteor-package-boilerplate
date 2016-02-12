@@ -6,13 +6,12 @@
   "scripts": {
     "test": "velocity test-package ./ --port 4000 --driver-package velocity:html-reporter@0.9.0-rc.1",
     "test-once": "velocity test-package ./ --port 4000 --ci",
-    "lint": "eslint --ext .js --ext .es6 --ext .jsx ."
+    "lint": "eslint ."
   },
   "devDependencies": {
-    "babel-eslint": "^4.0.5",
-    "eslint": "^1.1.0",
-    "eslint-config-airbnb": "0.0.7",
-    "eslint-plugin-react": "^3.2.1",
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^2.1.1",
+    "eslint-plugin-babel": "^3.0.0",
     "pre-commit": "^1.1.1",
     "velocity-cli": "^0.3.3"
   },

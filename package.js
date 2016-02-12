@@ -1,3 +1,5 @@
+/* globals Package: false */
+
 Package.describe({
   name: 'meteor-package-boilerplate',
   version: '0.0.1',

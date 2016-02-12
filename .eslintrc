@@ -1,6 +1,14 @@
 {
-  "extends": "airbnb",
+  "extends": "airbnb/base",
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "globals" : {
+    "MeteorPackageBoilerplate": false
+  },
   "rules": {
-    "space-before-function-paren": [2, {"anonymous": "always", "named": "never"}]
+    "object-curly-spacing": 0,
+    "no-use-before-define": [2, "nofunc"]
   }
 }
